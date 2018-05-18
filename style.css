@@ -1,12 +1,17 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
 html{
     background: url(checker1.gif);
     background-repeat: repeat;
 }
 
-body{
+#main{
     height: 100%;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 

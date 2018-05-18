@@ -10,16 +10,17 @@
 </head>
 <body>
 
-    <img src="ponytaBig.gif" alt="">
+    <div id="main">
+        <img src="ponytaBig.gif" alt="">
 
-    <audio controls autoplay id="pokeMusic">
-        <source src="pokemon.mp3" type="audio/mp3">
-    </audio>
-
+        <audio controls autoplay id="pokeMusic">
+            <source src="pokemon.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    
     <script>
         var music = document.getElementById("pokeMusic");
         music.volume = 0.5;
-        music.play();
     </script>
 </body>
 </html>
