@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="shiny.gif">
+    <title>Ponyta Shiny</title>
+</head>
+<body>
+
+    <img src="ponytaBig.gif" alt="">
+
+    <audio controls autoplay id="pokeMusic">
+        <source src="pokemon.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        var music = document.getElementById("pokeMusic");
+        music.volume = 0.5;
+        music.play();
+    </script>
+</body>
+</html>
